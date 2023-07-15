@@ -20,6 +20,10 @@ module.exports = {
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
   },
+  devServer: {
+    hot: false,
+    liveReload: false,
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: "index.html"
