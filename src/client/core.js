@@ -1,4 +1,4 @@
-import 'vite/modulepreload-polyfill'
+// import 'vite/modulepreload-polyfill' - not works with webpack
 window.__vite_plugin_react_preamble_installed__ = true;
 
 console.log('Loading plugins...', 3);
